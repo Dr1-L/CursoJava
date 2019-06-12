@@ -29,8 +29,8 @@ public abstract class Contribuinte {
   @Override
   public String toString() {
     String toS = "";
-    return toS = "Nome: "+ this.getNome() +
-        "Renda: "+ this.getRendaBruta() + " "+ calcularImposto();
-    
+    return toS = "\nNome: "+ this.getNome() +
+        "\nRenda: "+ this.getRendaBruta() +
+        "\nImposto: "+ calcularImposto();
   }
 }

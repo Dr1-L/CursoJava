@@ -18,9 +18,9 @@ public class PessoaJuridica extends Contribuinte {
   
   @Override
   public String toString() {
-    String toS = "";
-    toS += "Pessoa Juridica" +
-    "Imposto a ser pago: "+ calcularImposto();
+//    String toS = "";
+//    toS += "Pessoa Juridica" +
+//    "Imposto a ser pago: "+ calcularImposto();
     return super.toString();
   }
 }

@@ -26,8 +26,10 @@ public class PessoaFisica extends Contribuinte {
   
   @Override
   public String toString() {
-    String toS = super.toString();
-    toS +="Pessoa Fisica:\n"+"Imposto a ser pago: "+ calcularImposto();
-    return toS;
+    //String toS = super.toString();
+    String toS = "";
+    toS +="\nPessoa Fisica:"+
+    "\nImposto a ser pago: "+ calcularImposto();
+    return super.toString();
   }
 }
